@@ -1,0 +1,214 @@
+
+    .navbar {
+        /* border: 2px solid red; */
+        display: flex;
+        width: 100%;
+        padding: 43px -1px;
+        margin: -2px -1px;
+        justify-items: center;
+}
+
+.logo{
+    width: 43px;
+    height: 40px;
+    padding: 0px 0px;
+    margin: -1px 1px;
+    border-radius: 81px;
+}
+    .navbar ul {
+        /* border: 2px solid green; */
+        display: flex;
+        width: 332px;
+        height: 29px;
+        padding: 0px 12px;
+        margin: 2px 2px;
+        list-style: none;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 19px;
+    margin: 21px -8px;
+
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 6%;
+    width: 99%;
+    z-index: -1;
+    opacity: 0.3
+}
+    .home {
+        color: white;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        padding: 83px 203px;}
+
+.home::before{
+    content: "";
+    background: url(background.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 67%;
+    width: 101%;
+    z-index: -9;
+    opacity: 0.88;
+    padding: 17px 13px;
+    margin: 10px -218px;
+
+}
+
+
+.home h1{
+    font-size: 51px;
+    padding: 24px 198px;
+    margin: -25px 6px; 
+}
+
+.home p{
+    font-size: 18px;
+    padding: 0px 83px;
+    margin: 13px;
+    width: 731px;
+}
+.button{
+    font-size: 18px;
+    padding: 1px 3px;
+    margin: 33px 372px;
+    width: 112px;
+    border-radius: 8px;
+    background-color: brown;
+    color: white ;
+    border: 2px solid white;
+    outline: 3px solid white;
+    outline-offset: -5px;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.button:hover{
+    outline-offset: 3px;
+}
+.navbar ul a:hover{
+    color: rgb(30, 234, 169);
+}
+.services{
+    padding: 5px 56px;
+    margin: 30px 526px;
+    width: 212px;
+}
+.container{
+    /* border: 2px solid black; */
+    width: 100%;
+    padding: -7px 53px;
+    display: flex;
+    text-align: center;
+}
+.box img{
+    width: 83px;
+    padding: 5px 0px;
+    margin: 7px 181px;
+    height: 75px;
+    border-radius: 12px;
+
+}
+.container #box1{
+    border: 2px solid   tomato;
+    width: 403px;
+    height: 297px;
+    margin: 0px 21px;
+    background: rgb(228, 199, 146);
+    border-radius: 12px;
+    
+}
+.container #box2{
+ border: 2px solid tomato;
+    width: 403px;
+    height: 297px;
+    margin: 0px 21px;
+    background: rgb(228, 199, 146);
+    border-radius: 12px;
+
+
+
+}
+.container #box3{
+    border: 2px solid tomato;
+    width: 403px;
+    height: 297px;
+    margin: 0px 21px;
+    border-radius: 12px;
+    background: rgb(228, 199, 146);
+}
+.client{
+    margin: 36px 0px;
+    padding: 0px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.client::before{
+    content: "";
+    background: url(contact.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 45%;
+    width: 114%;
+    z-index: -10;
+    opacity: 0.55;
+    padding: 17px 13px;
+    margin: 10px -218px;}
+
+    .client .img{
+        margin: 9px 20px;
+        padding: 5px 44px;
+        width: 155px;
+        border-radius: 75px;
+    }
+    #images{
+        display: flex;
+        padding: 20px 267px;
+        margin: 0px 4px;}
+
+        .contact{
+            text-align: center;
+           width: 1288pxx;
+            display: flex;
+            flex-direction: column;
+            margin: 35px -50px;
+        }
+
+        .contact input {
+            width: 454px;
+            height: 19px;
+            padding: 3px 161px;
+            margin: 10px 345px;
+            text-align: center;
+            border-radius: 13px;
+        }
+
+        .contact button{
+            width: 779px;
+            height: 27px;
+            padding: 3px 161px;
+            margin: 10px 345px;
+            background-color: rgb(211, 83, 51);
+            border-radius: 13px;
+        
+        }
+        .contact::before{
+            content: "";
+    background: url(contactus.jpeg) no-repeat center center/cover;
+    position: absolute;
+    height: 53%;
+    width: 114%;
+    z-index: -9;
+    opacity: 0.70;
+    padding: 13px 26px;
+    margin: -13px -194px}
